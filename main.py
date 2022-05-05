@@ -16,3 +16,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+# RGB- red, green, blue
+    screen.fill((0, 0, 0))
+    pygame.display.update()
